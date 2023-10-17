@@ -1,5 +1,5 @@
              PGM        PARM(&CUID)
-             DCL        VAR(&CUID) TYPE(*DEC) LEN(7 0)
+             DCL        VAR(&CUID) TYPE(*DEC) LEN(3 3)
              /* TFRREF TST */
              DLTF       FILE(QTEMP/DETORD)
              MONMSG     MSGID(CPF0000)
