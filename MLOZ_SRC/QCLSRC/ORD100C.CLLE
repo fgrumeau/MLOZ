@@ -1,6 +1,6 @@
              PGM        PARM(&CUID)
              DCL        VAR(&CUID) TYPE(*DEC) LEN(3 3)
-             /* TFRREF TST */
+             /* TFRREF TST MODIF1 */
              DLTF       FILE(QTEMP/DETORD)
              MONMSG     MSGID(CPF0000)
              CRTDUPOBJ  OBJ(DETORD) FROMLIB(*LIBL) OBJTYPE(*FILE) +
